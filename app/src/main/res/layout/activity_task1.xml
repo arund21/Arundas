@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Task1Activity"
+    android:background="#ede0b8"
+
+
+    >
+
+    <EditText
+        android:id="@+id/etCircle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Radius"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnCircle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="Calculate Area of Circle"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/tvCircle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="0"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/etFtoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Fahrenheit Temperature"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnFtoc"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="Convert to Celcius"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/tvFtoc"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="0"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/etBreadth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Breadth of Triangle"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/etHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Height of Triangle"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btnTriangle"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="Calculate area of Triangle"
+        android:layout_margin="10dp"
+        />
+    <TextView
+       android:id="@+id/tvTriangle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="0"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:id="@+id/etCheckp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter any Number"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btnCheckp"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:hint="Check Palindrome"
+
+        />
+    <TextView
+        android:id="@+id/tvCheckp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="0"
+        android:textAlignment="center"
+        />
+</LinearLayout>
