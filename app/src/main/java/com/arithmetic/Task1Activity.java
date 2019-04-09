@@ -12,6 +12,8 @@ public class Task1Activity extends AppCompatActivity {
     EditText etCircle,etFtoc,etHeight,etBreadth,etCheckp;
     Button btnCircle,btnFtoc,btnTriangle,btnCheckp;
     TextView tvCircle,tvFtoc,tvTriangle,tvCheckp;
+double radius;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,8 +45,9 @@ public class Task1Activity extends AppCompatActivity {
 
                 int radius;
                 radius= Integer.parseInt(etCircle.getText().toString());
-                Double result=radius*radius*3.14;
-                tvCircle.setText(Double.toString(result));
+                Task1activitycode task1activitycode= new Task1activitycode(radius);
+                double result1 = task1activitycode.areaCircle();
+                tvCircle.setText(Double.toString(result1));
             }
         });
 
@@ -113,4 +116,5 @@ public class Task1Activity extends AppCompatActivity {
 
 
     }
+
 }
